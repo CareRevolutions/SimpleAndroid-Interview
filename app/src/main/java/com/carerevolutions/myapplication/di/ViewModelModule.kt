@@ -4,15 +4,15 @@ import com.carerevolutions.myapplication.feature_country_subdivision.CountrySubd
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.components.ActivityComponent
-import dagger.hilt.android.scopes.ActivityScoped
+import dagger.hilt.android.components.ViewModelComponent
+import dagger.hilt.android.scopes.ViewModelScoped
 import retrofit2.Retrofit
 
 @Module
-@InstallIn(ActivityComponent::class)
-class ActivityModule {
+@InstallIn(ViewModelComponent::class)
+class ViewModelModule {
 
-    @ActivityScoped
+    @ViewModelScoped
     @Provides
     fun providesCountrySubdivisionApi(retrofit: Retrofit): CountrySubdivisionApi =
         retrofit.create(CountrySubdivisionApi::class.java)
