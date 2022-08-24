@@ -10,13 +10,11 @@ This is a simple Android app that downloads a list of states and displays them i
 
 3. Modify the app to use Android Architecture Components, specifically:
 
-4. Add a ViewModel that downloads the list of states.
+4. Using the provided ViewModel write the code that downloads a list of states. 
 
-5. Expose the list of states using LiveData.
+5. Bind the states data emitted by the API with a vertical scrollable view (either in compose or in views)
 
-6. Bind the LiveData of states to the ListView adapter.
-
-7. Bonus (optional): Modify the app in some way, visually or internally, that you think might be useful or cool.
+6. Bonus (optional): Modify the app in some way, visually or internally, that you think might be useful or cool.
 
 In the interview, we'll discuss this app, ways to improve it, architectural concepts, best practices and what ideas you think are important in making a strong, reliable and easy to use Android app.
 
