@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/destination_country_subdivision">
+
+    <fragment
+        android:id="@+id/destination_country_subdivision"
+        android:name="com.carerevolutions.myapplication.feature_country_subdivision.CountrySubdivisionFragment"
+        android:label="CountrySubdivision"
+        tools:layout="@layout/fragment_country_subdivision" />
+
+</navigation>

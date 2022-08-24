@@ -1,5 +1,8 @@
 # Instructions
 
+![](https://github.com/CareRevolutions/SimpleAndroid-Interview/blob/master/assets/take_home.png)
+![](https://github.com/CareRevolutions/SimpleAndroid-Interview/blob/master/assets/sample_take_home.gif)
+
 This is a simple Android app that downloads a list of states and displays them in a ListView. It should take about 1 to 1.5 hours to complete the following tasks.
 
 **NOTE:** Steps are broken down into tasks that should take around 10 - 20 minutes. If you find yourself taking a lot more than the estimated time, please move on to the next step and note where you ran into any problems.
