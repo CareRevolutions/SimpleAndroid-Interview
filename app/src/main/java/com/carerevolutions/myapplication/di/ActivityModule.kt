@@ -4,15 +4,15 @@ import com.carerevolutions.myapplication.feature_country_subdivision.CountrySubd
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.components.SingletonComponent
+import dagger.hilt.android.components.ActivityComponent
+import dagger.hilt.android.scopes.ActivityScoped
 import retrofit2.Retrofit
-import javax.inject.Singleton
 
 @Module
-@InstallIn(SingletonComponent::class)
+@InstallIn(ActivityComponent::class)
 class ActivityModule {
 
-    @Singleton
+    @ActivityScoped
     @Provides
     fun providesCountrySubdivisionApi(retrofit: Retrofit): CountrySubdivisionApi =
         retrofit.create(CountrySubdivisionApi::class.java)
