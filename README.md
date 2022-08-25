@@ -20,6 +20,6 @@ In the interview, we'll discuss this app, ways to improve it, architectural conc
 
 **SAMPLE OUTPUT:**
 
-![](https://github.com/CareRevolutions/SimpleAndroid-Interview/blob/update-readme/assets/finished_take_home.gif)
+![](https://github.com/CareRevolutions/SimpleAndroid-Interview/blob/master/assets/finished_take_home.gif)
 
 **FINAL NOTE:** Be prepared to run Android Studio, an emulator and share your screen during the interview.
