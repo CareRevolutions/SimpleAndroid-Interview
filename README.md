@@ -19,6 +19,7 @@ This is a simple Android app that downloads a list of states and displays them i
 In the interview, we'll discuss this app, ways to improve it, architectural concepts, best practices and what ideas you think are important in making a strong, reliable and easy to use Android app.
 
 **SAMPLE OUTPUT:**
-![](https://github.com/CareRevolutions/SimpleAndroid-Interview/blob/master/assets/finished_take_home.gif)
+
+![](https://github.com/CareRevolutions/SimpleAndroid-Interview/blob/update-readme/assets/finished_take_home.gif)
 
 **FINAL NOTE:** Be prepared to run Android Studio, an emulator and share your screen during the interview.
